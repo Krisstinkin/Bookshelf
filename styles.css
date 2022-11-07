@@ -1,0 +1,252 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.header_background {
+  background: linear-gradient(0deg, #e2d4d389, #e2d4d382), url("main_picture.jpg");
+  background-size: cover;
+  background-position: center;
+    
+}
+
+.header_content {
+  width: 100%;
+  margin: auto;
+  max-width: 1000px;
+    
+}
+
+.content_books {
+  background-color: #FFFAF0;
+}
+
+.header_title {
+  padding-top: 400px;
+  color: #6e463c;
+  font-weight: 500;
+  font-size: 54px;
+  padding-bottom: 30px;
+  font-family: 'Pacifico', cursive;
+  display: flex;
+  justify-content: space-between;
+  text-shadow: 1px 1px 1px wheat;
+
+}
+
+.header_button {
+  padding: 20px 20px 20px 20px;
+  font-size: 18px;
+  border: none;
+  box-shadow: 1px 1px 10px 1px wheat;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #D2B48C;
+  width: calc(100% / 4);
+  background-color: white;
+    
+}
+
+.header_button:hover {
+  background-color: #FFFAF0;
+  border: 1px solid #D2B48C;
+  transition: background-color 500ms linear;
+
+}
+  
+.catalog {
+  margin: auto;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 30px;
+    
+}
+  
+.book_style {
+  display: flex;
+  justify-content: center;
+  width: calc(100% / 3);
+
+}
+  
+.book_image_style {
+  width: 60%;
+
+}
+  
+.modal_buttons_header {
+  display: flex;
+  width: 70%;
+  margin-top: 30px;
+
+} 
+
+.modal_button_header {
+  margin-bottom: 15px;
+  padding: 20px 20px 20px 20px;
+  font-size: 16px;
+  border: none;
+  box-shadow: 1px 1px 5px 1px wheat;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  color: #D2B48C;
+  width: calc(100% / 2);
+  margin-right: 15px;
+  margin-left: 15px;
+  background-color: white;
+
+}
+
+.modal_button_header:hover {
+  background-color: #FFFAF0;
+  border: 1px solid #D2B48C;
+  transition: background-color 500ms linear;
+
+}
+
+.addModalWindow {
+  background-color: #e2e2e2aa;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.addModalWindowUpdate {
+  background-color:  #e2e2e2aa;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.text_modal_content {
+  font-family: 'Pacifico', cursive;
+  color: #D2B48C;
+  font-size: 42px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  text-align: center;
+
+}
+
+.addModalContent {
+  background-color: #FFFAF0;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px wheat;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+ 
+}
+
+.inputStyle {
+  border: 0.5px solid #D2B48C;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding-left: 15px;
+  width: 70%;
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin-left: 5px;
+  color: wheat;
+  margin-bottom: 5px;
+
+}
+
+.inputStyle:focus {
+  border: 0.5px solid #D2B48C;
+  outline: 0;
+  outline-offset: 0;
+  background-color: #FFFAF0;
+
+}
+
+.book_buttons {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+    
+}
+
+.book_button {
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  font-size: 14px;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #D2B48C;
+  background-color: #FFFAF0;
+  
+}
+
+.book_button:hover {
+  border: 0.5px solid #D2B48C;
+
+}
+
+.book {
+  background-color: white;
+  width: calc(85%);
+  margin-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px wheat;
+
+}
+
+.book_image {
+  text-align: center;
+  padding-top: 12%;
+
+}
+
+.book_title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: #6e463c;
+  font-family: 'Pacifico', cursive;
+  line-height: 1.5;
+
+}
+
+.book_year {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: #D2B48C;
+
+}
+
+.book_author {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-size: 14px;
+  color: #ac8657;
+  font-weight: 600;
+
+}
+
+

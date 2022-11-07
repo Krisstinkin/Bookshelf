@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Книжная полка Krisstinkin</title>
+        
+        <link rel="stylesheet" type="text/css" href="reset.css" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+
+        <link rel="stylesheet" href="icons/css/all.css"/>
+
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&family=Rubik:wght@300;400;500;600;700;800;900&family=Source+Sans+3:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    </head>
+
+
+    <body> 
+
+        <div class="header_background">
+    
+            <div class="header_content">
+    
+                <div class="header_title">
+                    Книжная полка Krisstinkin
+
+                    <button class="header_button" id="addModalButton">Добавить книгу</button>                   
+
+                </div>
+          
+                <div class="addModalWindow" id="addModalWindowId">
+    
+                    <div class="addModalContent">
+    
+                        <div class="text_modal_content">Добавить новую книгу</div>
+    
+                        <input id="bookName" class="inputStyle" placeholder="Название книги">
+                        <input id="bookAuthor" class="inputStyle" placeholder="Автор">
+                        <input id="bookYear" class="inputStyle" placeholder="Год издания">
+                        <input id="bookImage" class="inputStyle"placeholder="Ссылка на изображение">
+    
+                        <div class="modal_buttons_header">
+    
+                            <button class="modal_button_header" id="bookSave">Добавить в список</button>
+                            <button class="modal_button_header" id="closeModalButton">Закрыть</button>
+                        </div>
+    
+                    </div>
+                    
+                </div>
+    
+                <div class="addModalWindow" id="addUpdateWindow">
+    
+                    <div class="addModalContent">
+    
+                        <div class="text_modal_content">Обновите данные книги</div>
+    
+                        <input id="bookNameUpdate" class="inputStyle" placeholder="Название книги">
+                        <input id="bookAuthorUpdate" class="inputStyle" placeholder="Автор">
+                        <input id="bookYearUpdate" class="inputStyle" placeholder="Год издания">
+                        <input id="bookImageUpdate" class="inputStyle"placeholder="Ссылка на изображение">
+    
+                        <div class="modal_buttons_header">
+    
+                            <button class="modal_button_header" id="updateBookButton">Изменить</button>
+                            <button class="modal_button_header" id="updateCloseButton">Закрыть</button>
+                        </div>
+    
+                    </div>
+                    
+                </div>
+    
+            </div>
+        </div>
+    
+        <div class="content_books">
+           
+            <div class="catalog"  id="catalog"></div>
+    
+        </div>
+    
+        <script src="script.js"></script>
+        
+    </body>
+    
+</html>
